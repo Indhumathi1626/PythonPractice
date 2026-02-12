@@ -1,3 +1,4 @@
+# To evaluate expression - (12*a + 25*b)/(1+a**(2**b))
 def expo(a, b):
     value = (12*a + 25*b)/(1+a**(2**b))  
     #value = round(value,2)  
@@ -7,5 +8,6 @@ def expo(a, b):
 
 print("A function to calculate the given expression")
 result = expo(2,6)
+
 
 
