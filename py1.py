@@ -1,0 +1,11 @@
+def expo(a, b):
+    value = (12*a + 25*b)/(1+a**(2**b))  
+    #value = round(value,2)  
+    print(f"The value is:{value:.2e}")
+    #print("the value is:", value)
+    return value
+
+print("A function to calculate the given expression")
+result = expo(2,6)
+
+
